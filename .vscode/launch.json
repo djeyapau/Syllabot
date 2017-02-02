@@ -9,12 +9,7 @@
             "request": "launch",
             "name": "Launch Program",
             "program": "${workspaceRoot}\\app.js",
-            "cwd": "${workspaceRoot}",
-            "env": {
-                "NODE_ENV": "development",
-                "MY_APP_PASSWORD": "hS8f7u8Dcxrwjq7G93WfeTs",
-                "MY_APP_ID": "1aa43322-c399-4889-b711-e401c6da4a50"
-            }
+            "cwd": "${workspaceRoot}"
         },
         {
             "type": "node",
