@@ -1,0 +1,29 @@
+{
+  "name": "cloudsyllabus",
+  "version": "1.0.0",
+  "description": "\"Build a bot in Node.js on Microsoft Bot Framework.\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djeyapau/CloudSyllabus.git"
+  },
+  "keywords": [
+    "bot",
+    "skype",
+    "syllabus",
+    "cloud"
+  ],
+  "author": "Dharshini_Jeyapaul <djeyapau@hawk.iit.edu>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/djeyapau/CloudSyllabus/issues"
+  },
+  "homepage": "https://github.com/djeyapau/CloudSyllabus#readme",
+  "dependencies": {
+    "botbuilder": "^3.5.4",
+    "restify": "^4.3.0"
+  }
+}
