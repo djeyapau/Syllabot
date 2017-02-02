@@ -1,3 +1,4 @@
+
 // Add your requirements
 var restify = require('restify'); 
 var builder = require('botbuilder'); 
@@ -11,7 +12,7 @@ server.listen(process.env.PORT || 3000, function()
 
 // Create chat bot
 var connector = new builder.ChatConnector
-({ appId: '1aa43322-c399-4889-b711-e401c6da4a50', appPassword: 'hS8f7u8Dcxrwjq7G93WfeTs' }); 
+({ appId: 'process.env.MY_APP_ID', appPassword: 'process.env.MY_APP_PASSWORD' }); 
 var bot = new builder.UniversalBot(connector);
 server.post('/api/messages', connector.listen());
 
