@@ -17,15 +17,18 @@ var bot = new builder.UniversalBot(connector);
 server.post('/api/messages', connector.listen());
 
 // Create bot dialogs
-bot.dialog('/', BasicQnAMakerDialog);
+bot.dialog('/', function (session) {
+    session.send("Hello World");
+});
+//bot.dialog('/', BasicQnAMakerDialog);
 
 // QnA Maker Dialogs
 
-var recognizer = new cognitiveservices.QnAMakerRecognizer({
+/*var recognizer = new cognitiveservices.QnAMakerRecognizer({
 	knowledgeBaseId: 'd8d575b5-df88-4d42-a43d-fdd65f9b3bf4', 
 	subscriptionKey: 'd68d61ed05f44a01a6f14ed26e67b896'});
 
 var BasicQnAMakerDialog = new cognitiveservices.QnAMakerDialog({ 
 	recognizers: [recognizer],
 	defaultMessage: 'I am not sure. Let me check and get back to you.',
-	qnaThreshold: 0});
+	qnaThreshold: 0});*/
