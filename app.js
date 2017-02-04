@@ -28,4 +28,4 @@ var recognizer = new cognitiveservices.QnAMakerRecognizer({
 var BasicQnAMakerDialog = new cognitiveservices.QnAMakerDialog({ 
 	recognizers: [recognizer],
 	defaultMessage: 'I am not sure. Let me check and get back to you.',
-	qnaThreshold: 0.5});
+	qnaThreshold: 0});
