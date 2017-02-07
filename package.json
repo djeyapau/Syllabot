@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/djeyapau/CloudSyllabus.git"
+    "url": "git+https://github.com/djeyapau/Syllabot.git"
   },
   "keywords": [
     "bot",
@@ -16,12 +16,12 @@
     "syllabus",
     "cloud"
   ],
-  "author": "Dharshini_Jeyapaul <djeyapau@hawk.iit.edu>",
+  "author": "Dharshini_Jeyapaul",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/djeyapau/CloudSyllabus/issues"
+    "url": "https://github.com/djeyapau/Syllabot/issues"
   },
-  "homepage": "https://github.com/djeyapau/CloudSyllabus#readme",
+  "homepage": "https://github.com/djeyapau/Syllabot#readme",
   "dependencies": {
     "botbuilder": "^3.5.4",
     "botbuilder-cognitiveservices": "^1.0.1",
