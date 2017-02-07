@@ -23,7 +23,7 @@ bot.dialog('/', function (session) {
 
 var restify = require('restify');
 var builder = require('botbuilder');
-var cognitiveservices = require('../lib/botbuilder-cognitiveservices');
+var cognitiveservices = require('botbuilder-cognitiveservices');
 
 //=========================================================
 // Bot Setup
