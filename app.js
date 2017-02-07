@@ -25,3 +25,16 @@ Host: https://westus.api.cognitive.microsoft.com/qnamaker/v1.0
 Ocp-Apim-Subscription-Key: d68d61ed05f44a01a6f14ed26e67b896
 Content-Type: application/json
 {"question":"hi"}
+
+//bot.dialog('/', BasicQnAMakerDialog);
+
+// QnA Maker Dialogs
+
+/*var recognizer = new cognitiveservices.QnAMakerRecognizer({
+	knowledgeBaseId: 'd8d575b5-df88-4d42-a43d-fdd65f9b3bf4', 
+	subscriptionKey: 'd68d61ed05f44a01a6f14ed26e67b896'});
+
+var BasicQnAMakerDialog = new cognitiveservices.QnAMakerDialog({ 
+	recognizers: [recognizer],
+	defaultMessage: 'I am not sure. Let me check and get back to you.',
+	qnaThreshold: 0});*/
