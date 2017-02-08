@@ -36,6 +36,10 @@ server.listen(process.env.port || process.env.PORT || 3978, function () {
 });
   
 // Create chat bot
+
+var appId = process.env.MY_APP_ID || "Missing your app ID";
+var appPassword = process.env.MY_APP_PASSWORD || "Missing your app password";
+
 var connector = new builder.ChatConnector({
  appId: process.env.MY_APP_ID,
  appPassword: process.env.MY_APP_PASSWORD
