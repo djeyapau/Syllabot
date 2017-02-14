@@ -41,8 +41,8 @@ var appId = process.env.MY_APP_ID || "Missing your app ID";
 var appPassword = process.env.MY_APP_PASSWORD || "Missing your app password";
 
 var connector = new builder.ChatConnector({
- appId: process.env.MY_APP_ID,
- appPassword: process.env.MY_APP_PASSWORD
+ appId: '1aa43322-c399-4889-b711-e401c6da4a50',
+ appPassword: 'hS8f7u8Dcxrwjq7G93WfeTs'
 });
 var bot = new builder.UniversalBot(connector);
 server.post('/api/messages', connector.listen());
