@@ -36,12 +36,9 @@ server.listen(process.env.port || process.env.PORT || 3978, function () {
   
 // Create chat bot
 
-var appId = process.env.MY_APP_ID || "Missing your app ID";
-var appPassword = process.env.MY_APP_PASSWORD || "Missing your app password";
-
 var connector = new builder.ChatConnector({
- appId: '1aa43322-c399-4889-b711-e401c6da4a50',
- appPassword: 'hS8f7u8Dcxrwjq7G93WfeTs'
+ appId: '23f5bba6-e1cb-48bf-a655-2253b6edc447',
+ appPassword: 'gAZL0frFRO5WDTeeTiNNuPg'
 });
 var bot = new builder.UniversalBot(connector);
 server.post('/api/messages', connector.listen());
