@@ -1,0 +1,290 @@
+{
+	"course": {
+		"name": "Cloud Computing Technologies",
+		"graduate code": "ITMO 544",
+		"undergraduate code": "ITMO 444",
+		"prerequisites": ["ITMD 411/510", "ITMO 456/556"],
+		"catalog_description": "Computing applications hosted on dynamically-scaled virtual resources available as services are considered. Collaborative and non-collaborative 'cloud-resident' applications are analyzed with respect to cost, device/location independence, scalability, reliability, security, and sustainability. Commercial and local cloud architectures are examined. A group-based integration of course topics will result in a project employing various cloud computing technologies.",
+		"objective": "Each successful student will be able to demonstrate building and running cloud-based services on a large scale. They will gain the knowledge of deploying and managing elastic and cloud based applications on industry standard platforms as well as opensource platforms. Students will be prepared with knowledge of Cloud Based Operations and Application Development.",
+		"outcome": ["Students completing this course will be able to:", "Be able to explain the fundamental aspects of IaaS", "Use and administer Industry Standard cloud resources", "Build and deploy your own elastic scaling application on a cloud platform", "Be able to explain the difference between scale up vs scale out architecture", "Understand how to design for services and not servers."]
+	},
+	"class": {
+		"days": ["Tuesday", "Thursday"],
+		"time": "10:00 - 11:40",
+		"place": {
+			"hall": "Wishnick hall",
+			"number": "115"
+		},
+		"hours": "2.000"
+	},
+	"faculty": {
+		"name": "Jeremy Hajek",
+		"number": "(630) 296-4012",
+		"Office hours": {
+			"days": ["Tuesday", "Thursday"],
+			"time": "1:00pm - 3:00pm or after class",
+			"place": "Main Campus"
+		},
+		"email": "hajek@iit.edu",
+		"skype": "jeremy.hajek"
+	},
+	"credit": {
+		"result": "ITM-enrolled students will receive, upon successful completion of the course, 3 semester hours of credit.",
+		"hours": "3.000"
+	},
+	"lab": {
+		"hours": "2.000",
+		"day": "Laboratory activities will sometimes be integrated with the lectures and will take place online and possibly in class.",
+		"Time": "Laboratory activities will sometimes be integrated with the lectures and will take place online and possibly in class.",
+		"place": {
+			"hall": "Wishnick hall",
+			"number": "115"
+		}
+	},
+	"blackboard": {
+		"definition": "Blackboard is a Learning Management System which we will use for our course. Each student should have been notified of his or her Blackboard account for this course. If you have not been notified, go to above web page where there is contact information. Be familiar with how to use Blackboard.",
+		"login": {
+			"method1": "blackboard.iit.edu",
+			"method2": "via my.iit.edu",
+			"method3": "https://sites.google.com/a/iit.edu/blackboard/"
+		},
+		"usage": ["communicate", "homework submission", "questions", "feedback"]
+	},
+	"homework": {
+		"weekly_assignments": {
+			"release": "Thursday of class week",
+			"due": {
+				"day": "following Thursday",
+				"time": "11:59 PM"
+			},
+			"late_assignment": "not accepted"
+		},
+		"review_questions": {
+			"release": "Thursday of class week",
+			"due": {
+				"day": "following Saturday (10 days)",
+				"time": "11:59 PM"
+			},
+			"late_assignment": "not accepted"
+		}
+	},
+	"grade": {
+		"split-up": [{
+			"section": "live",
+			"total_points": "910",
+			"attendance": {
+				"p_points": "5",
+				"sessions": "29",
+				"t_points": "150"
+			},
+			"weekly_assignment": {
+				"p_points": "20",
+				"sessions": "10",
+				"t_points": "200"
+			},
+			"mini_project": {
+				"p_points": "50",
+				"sessions": "2",
+				"t_points": "100"
+			},
+			"final_project": {
+				"p_points": "100",
+				"sessions": "1",
+				"t_points": "100"
+			},
+			"final_exam": {
+				"p_points": "100",
+				"sessions": "1",
+				"t_points": "100"
+			},
+			"review_question": {
+				"p_points": "20",
+				"sessions": "13",
+				"t_points": "260"
+			}
+		}, {
+			"section": "online",
+			"total_points": "760",
+			"attendance": {
+				"p_points": "0",
+				"sessions": "0",
+				"t_points": "0"
+			},
+			"weekly_assignment": {
+				"p_points": "20",
+				"sessions": "10",
+				"t_points": "200"
+			},
+			"mini_project": {
+				"p_points": "50",
+				"sessions": "2",
+				"t_points": "100"
+			},
+			"final_project": {
+				"p_points": "100",
+				"sessions": "1",
+				"t_points": "100"
+			},
+			"final_exam": {
+				"p_points": "100",
+				"sessions": "1",
+				"t_points": "100"
+			},
+			"review_question": {
+				"p_points": "20",
+				"sessions": "13",
+				"t_points": "260"
+			}
+		}],
+		"criteria": {
+			"graduate": {
+				"A": {
+					"description": "Outstanding work reflecting substantialeffort",
+					"u_percent": "90",
+					"l_percent": "100"
+				},
+				"B": {
+					"description": "Satisfactory work fully meeting expectations",
+					"u_percent": "80",
+					"l_percent": "89.99"
+				},
+				"C": {
+					"description": "Substandard work not meeting expectations",
+					"u_percent": "65",
+					"l_percent": "79.99"
+				},
+				"D": {
+					"description": "Unsatisfactory work",
+					"u_percent": "0",
+					"l_percent": "64.99"
+				}
+			},
+			"undergraduate": {
+				"A": {
+					"description": "Outstanding work reflecting substantialeffort",
+					"u_percent": "90",
+					"l_perent": "100"
+				},
+				"B": {
+					"description": "Satisfactory work fully meeting expectations",
+					"u_percent": "80",
+					"l_percent": "89.99"
+				},
+				"C": {
+					"description": "Satisfactory work meeting minimal expectations",
+					"u_percent": "70",
+					"l_percent": "79.99"
+				},
+				"D": {
+					"description": "Substandard work not meeting expectations",
+					"u_percent": "60",
+					"l_percent": "69.99"
+				},
+				"E": {
+					"description": "Unsatisfactory work",
+					"u_percent": "0",
+					"l_percent": "64.99"
+				}
+			}
+		}
+
+	},
+	"book": {
+		"name": "The Practice of Cloud System Administration: Designing and Operating Large Distributed Systems",
+		"volume": "2",
+		"ISBN-13": "978-0321943187",
+		"Publisher": "Addison-Wesley Professional",
+		"Publication_date": "9/15/2014",
+		"Pages": "560"
+	},
+	"schedule": {
+		"1": {
+			"date": "Aug 23 & 25",
+			"topic": "Thinking Cloud",
+			"chapter": "Preface & Intro"
+		},
+		"2": {
+			"date": "Aug 30 & Sept 1",
+			"topic": "Designing in a Distributed World",
+			"chapter": "Chapter 1"
+		},
+		"3": {
+			"date": "Sept 06 & 08",
+			"topic": "Designing For Operations/ Service Platforms",
+			"chapter": "Chapter 2 & 3"
+		},
+		"4": {
+			"date": "Sept 13 & 15",
+			"topic": "Application Architectures",
+			"chapter": "Chapter 4"
+		},
+		"5": {
+			"date": "Sept 20 & 22",
+			"topic": "Design Patterns for Scaling",
+			"chapter": "Chapter 5"
+		},
+		"6": {
+			"date": "Sept 27 & 29",
+			"topic": "Design Patterns for Resiliency",
+			"chapter": "Chapter 6"
+		},
+		"7": {
+			"date": "Oct 04 & 06",
+			"topic": "Operations in a Distributed World",
+			"chapter": "Chapter 7"
+		},
+		"8": {
+			"date": "Oct 11 & 13",
+			"topic": "DevOps Culture",
+			"chapter": "Chapter 8"
+		},
+		"9": {
+			"date": "Oct 18 & 20",
+			"topic": "Service Delivery: Build Phase",
+			"chapter": "Chapter 9"
+		},
+		"10": {
+			"date": "Oct 25 & 27",
+			"topic": "Service Delivery: Deployment Phase",
+			"chapter": "Chapter 10"
+		},
+		"11": {
+			"date": "Nov 01 & 03",
+			"topic": "Upgrading Live Services",
+			"chapter": "Chapter 11"
+		},
+		"12": {
+			"date": "Nov 08 & 10",
+			"topic": "Automation",
+			"chapter": "Chapter 12"
+		},
+		"13": {
+			"date": "Nov 15 & 17",
+			"topic": "Design Documents & Monitoring",
+			"chapter": "Chapter 13, 16, 17"
+		},
+		"14": {
+			"date": "Nov 22 & 24",
+			"topic": "TBA Guest Speaker",
+			"chapter": "TBA"
+		},
+		"15": {
+			"date": "Nov 29 & Dec 1",
+			"topic": "TBA Guest Speaker and Exam Review",
+			"chapter": "TBA"
+		},
+		"16": {
+			"date": "Week of Dec 05th",
+			"topic": "TBA -Final Examination",
+			"chapter": "TBA"
+		}
+	},
+	"student_responsibility": "Class attendance and active participation are essential if students are to receive maximum benefit from the class. Participation require preparation including completion of reading, labs, assignments and exams by the due dates. If you cannot attend class or complete assignments, labs, or exams on time, please let the instructor know beforehand so that we can discuss alternative strategies. It is the student’s benefit to use their time wisely whether it is in preparation for class, during scheduled class, or in the lab. When students are in any IIT lab environment, they should abide by the college policies. Questions and comments are welcome.",
+	"academic_policy": "Any violations of IIT policies regarding academic honesty and or integrity will be referred automatically to the appropriate college authorities for disposition. Please see appropriate pages in the college catalog for definitions and regulations. The minimum penalty for cheating will be a zero for all parties involved on that exam, assignment, lab or quiz. Bottom line: don’t do it.",
+	"withdraw policy": "No longer attending class does not constitute an automatic withdrawal.",
+	"classroom_behavior": "During the class time, considerate conduct by all persons is important to a favorable learning environment. Any infringement on the rights of others to get an education will be dealt with in an appropriate manner. Please set all electronic devices such as cell phones or pages to silent modes. Don’t let you phone go off in the class.",
+	"academic_honesty": "During the class time, considerate conduct by all persons is important to a favorable learning environment. Any infringement on the rights of others to get an education will be dealt with in an appropriate manner. Please set all electronic devices such as cell phones or pages to silent modes. Don’t let you phone go off in the class.",
+	"plagiarism": "All work you submit in this course must be your own. You must fully attribute all material directly quoted in papers and you must document all sources used in the preparation of the paper using APA- style bibliographic entries. No more than thirty-three percent of material included in any paper may be direct quotes. Students have submitted plagiarized material to me frequently over the last five years and I will not tolerate it. If you submit plagiarized material you can expect to receive a grade of ZERO for the assignment, and it may result in your expulsion from the course with a failing grade as per the *IIT Code of Academic Honesty* found in the IIT Student Handbook.",
+	"contract": "This syllabus is my contract with you as to what I will deliver and what I expect from you. If I change the syllabus, I will issue a revised version of the syllabus; the latest version will always be available on Blackboard. Areas with changes will be indicated by a black bar in the right-hand margin of the page.",
+	"disabilities": "Reasonable accommodations will be made for students with documented disabilities. In order to receive accommodations, students must obtain a letter of accommodation from the Center for Disability Resources and make an appointment to speak with me as soon as possible. My office hours are listed on the first page of the syllabus. The Center for Disability Resources (CDR) is located in 3424 S. State St., room 1C3-2 (on the first floor), telephone 312.567.5744 or disabilities@iit.edu"
+}
